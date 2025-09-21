@@ -1,0 +1,1 @@
+Start-Process powershell -WindowStyle Hidden -ArgumentList '-Command "$wshell = New-Object -ComObject wscript.shell; $end = (Get-Date).AddHours(8); while((Get-Date) -lt $end){$wshell.SendKeys(''{F15}''); Start-Sleep -Seconds (Get-Random -Minimum 30 -Maximum 200)}"'; exit
