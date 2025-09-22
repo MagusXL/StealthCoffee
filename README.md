@@ -1,4 +1,4 @@
 **Instructions:**
 
 1. Copy paste the raw script in a Powershell terminal.
-2. ;)
+2. Drink a coffee.
